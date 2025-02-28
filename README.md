@@ -42,7 +42,8 @@ Este projeto de Chatbot em Python foi desenvolvido para iniciantes na programaç
 > ⚠️ **Importante:** O chatbot ainda é bastante limitado e depende totalmente de palavras-chave pré-definidas. Se a entrada do usuário não contiver uma dessas palavras, ele **não entenderá** e exibirá uma mensagem de erro.
 >
 <br>
-✔️  **Reconhecimento básico de palavras-chave** – O bot só responde se a mensagem do usuário contiver palavras previamente cadastradas. Qualquer variação fora disso o deixa confuso.  
+
+✔️ **Reconhecimento básico de palavras-chave** – O bot só responde se a mensagem do usuário contiver palavras previamente cadastradas. Qualquer variação fora disso o deixa confuso.  
 
 ✔️ **Tratamento de texto rudimentar** – Remove acentos e pontuações, mas ainda é bem simples e não compreende sinônimos ou frases mais complexas.  
 
