@@ -21,40 +21,12 @@ Este projeto de Chatbot em Python foi desenvolvido para iniciantes na programaç
 ## 📚 Tecnologias Utilizadas:
 <br>
 
-✅ **Manipulação de Strings** – Normalização de texto para melhorar a interpretação das entradas do usuário.  
+## Atualizações
 
-✅ **Listas e Estruturas de Controle** – Uso de listas para armazenar palavras-chave e estruturas condicionais (`if`, `elif`) para determinar as respostas do bot.  
-
-✅ **Funções em Python** – Modularização do código para tornar o chatbot mais organizado e reutilizável.  
-
-✅ **Biblioteca unicodedata** – Remoção de acentos para garantir o reconhecimento correto das palavras.  
-
-✅ **Biblioteca random** – Geração de respostas variadas para tornar as interações mais dinâmicas.  
-
-✅ **Expressões Regulares (re)** – Remoção de pontuação e tratamento avançado da entrada do usuário.  
-
-✅ **Git e GitHub** – Versionamento de código, commits documentados e armazenamento do projeto em um repositório remoto.  
-
----
-
-## 🚀 Funcionalidades Atuais
-<br><br>
-> ⚠️ **Importante:** O chatbot ainda é bastante limitado e depende totalmente de palavras-chave pré-definidas. Se a entrada do usuário não contiver uma dessas palavras, ele **não entenderá** e exibirá uma mensagem de erro.
->
-<br>
-
-✔️ **Reconhecimento básico de palavras-chave** – O bot só responde se a mensagem do usuário contiver palavras previamente cadastradas. Qualquer variação fora disso o deixa confuso.  
-
-✔️ **Tratamento de texto rudimentar** – Remove acentos e pontuações, mas ainda é bem simples e não compreende sinônimos ou frases mais complexas.  
-
-✔️ **Respostas aleatórias dentro de categorias específicas** – Para algumas interações, o bot escolhe aleatoriamente entre um conjunto pequeno de respostas, mas sua variedade ainda é bem limitada.  
-
-✔️ **Detecção de saudações e despedidas** – Reconhece cumprimentos e despedidas básicas, mas se a saudação for diferente das esperadas, pode não responder corretamente.  
-
-✔️ **Mensagem de erro genérica** – Caso não encontre uma palavra-chave conhecida, apenas avisa que não entendeu, sem tentar interpretar melhor o contexto.  
-
-🔹 **Resumo:** O chatbot ainda é **bastante simples** 🤖💬 e precisa de melhorias para se tornar mais inteligente e flexível! 🚀  
-
+Agora o chatbot remove acentos antes da tokenização, garantindo que palavras com ou sem acento sejam reconhecidas igualmente.
+Filtragem de stopwords implementada, removendo palavras irrelevantes da entrada do usuário.
+Expansão da base de respostas com novas categorias, incluindo segurança, banco de dados, estrutura de dados, lógica de programação, entre outras.
+O chatbot agora reconhece variações nas perguntas ao comparar palavras-chave sem acentos com as entradas do usuário.
 ---
 
 ## 🔧 Como Executar
@@ -82,9 +54,7 @@ python chatbot-python_conceito-basico.py
 <br>
 Este chatbot será atualizado para se tornar mais inteligente, dinâmico e interativo. Algumas das melhorias planejadas incluem:
 
-🔹 1. Processamento de Linguagem Natural (PLN)
-Implementação de remoção de stopwords, tokenização e stemming.
-Uso das bibliotecas NLTK ou spaCy para aprimorar a compreensão do chatbot.
+✅ 1. Processamento de Linguagem Natural (PLN) - Implementada ✅
 
 🔹 2. Banco de Respostas Inteligente
 Armazenamento de respostas dinâmicas em um arquivo JSON.
@@ -113,7 +83,7 @@ Opção para o usuário escolher a personalidade do bot.
 | Funcionalidade                                  | Status        |
 |------------------------------------------------|--------------|
 | 🔄 Melhor organização do código               | 🟡 Em andamento |
-| 🏗️ Implementação de NLP básica               | 🟡 Em andamento     |
+| 🏗️ Implementação de NLP básica               | ✅ concluida     |
 | 📖 Expansão da base de respostas              | 🔴 Pendente     |
 | 🧠 Aprimoramento do chatbot para aprendizado  | 🔴 Pendente     |
 
